@@ -16,7 +16,7 @@ async function start() {
       console.log("######################");
       console.log("###### API REST ######");
       console.log("######################");
-      console.log(`http://192.168.18.194:${PORT}/api`);
+      console.log(`Servidor corriendo en puerto${PORT}`);
     });
   } catch (err) {
     console.error("❌ Error al conectar MongoDB:", err);
